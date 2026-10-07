@@ -1,8 +1,9 @@
 #!/bin/bash
-export GTK_THEME="adw-gtk3-dark"
-export XCURSOR_THEME="macOS-White"
-export XCURSOR_SIZE="32"
-export GTK_ICON_THEME="Papirus-Dark"
+xrdb -merge ~/.config/X11/cursor.Xresources
 picom &
 xclip &
-feh --bg-fill ~/Pictures/gal.jpg
+protonvpn connect &
+light-locker &
+xsettingsd -c ~/.config/X11/xsettingsd.conf &
+xrandr --output eDP-1 --mode "1920x1080"
+feh --bg-fill ~/Pictures/milky-way-nord.jpg

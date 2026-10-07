@@ -6,7 +6,7 @@ import = [ "~/.config/alacritty/Nordic.toml", ]
 [window]
 padding         = { x = 3, y = 3 } # Blank space added around the window in pixels.
 dynamic_padding = true # Spread additional padding evenly around the terminal content. 
-opacity         = 0.7 # Background opacity as a floating point number from 0.0 to 1.0.
+opacity         = 0.95 # Background opacity as a floating point number from 0.0 to 1.0.
 blur            = true # Request compositor to blur content behind transparent windows.
 title           = "Alacritty" # Window title.
 

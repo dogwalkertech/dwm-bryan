@@ -240,7 +240,7 @@ static const char autostartsh[] = "scripts/autostart.sh";
 static const char autostopsh[] = "scripts/autostop.sh";
 static const char broken[] = "broken";
 static const char dwmdir[] = "dwm-bryan";
-static const char localshare[] = "github";
+static const char localshare[] = ".local/share";
 static char stext[256];
 static int screen;
 static int sw, sh;           /* X display screen geometry width, height */

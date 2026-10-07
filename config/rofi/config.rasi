@@ -1,0 +1,21 @@
+@theme "~/.config/rofi/nord.rasi"
+configuration {
+	font: "MesloLGS Nerd Font Mono 12";
+	show-icons: true;
+	icon-theme: "Papirus-Dark";
+	disable-history: false;
+        line-margin: 5;
+        display-ssh:    "";
+        display-run:    "";
+        display-drun:   "";
+        display-window: "";
+        display-combi:  "";
+  timeout {
+      action: "kb-cancel";
+      delay:  0;
+  }
+  filebrowser {
+      directories-first: true;
+      sorting-method:    "name";
+  }
+}
