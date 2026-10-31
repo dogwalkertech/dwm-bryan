@@ -61,7 +61,7 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 #include <X11/XF86keysym.h>
 static const char *up_vol[]     = { "amixer", "sset", "Master", "5%+", "unmute", NULL };
-static const char *down_vol[]   = { "amixer", "sset", "Master", "5%-", "unmute", NULL };
+static const char *down_vol[]   = { "amixer", "sset", "Master", "5%-", NULL };
 static const char *toggle_vol[] = { "amixer", "sset", "Master", "toggle", NULL };
 static const char *lighter[]    = { "brightnessctl", "set", "5%+", NULL };
 static const char *dimmer[]     = { "brightnessctl", "set", "5%-", NULL };

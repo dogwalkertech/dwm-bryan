@@ -15,7 +15,7 @@ normal      = { family = "MesloLGS Nerd Font Mono", style = "Regular" }
 bold        = { family = "MesloLGS Nerd Font Mono", style = "Bold" }
 italic      = { family = "MesloLGS Nerd Font Mono", style = "Italic" }
 bold_italic = { family = "MesloLGS Nerd Font Mono", style = "Bold_Italic" }
-size = 14
+size = 9
 
 [selection]
 save_to_clipboard = true
