@@ -1,2 +1,2 @@
 # dwm-bryan
-My dwm setup for arch linux
+My dwm setup for archlinux
