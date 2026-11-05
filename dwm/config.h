@@ -5,13 +5,13 @@ static const unsigned int borderpx  = 1;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "MesloLGS Nerd Font Mono:size=11" };
-static const char dmenufont[]       = "MesloLGS Nerd Font Mono:size=11";
-static const char col_gray1[]       = "#222222";
+static const char *fonts[]          = { "MesloLGS Nerd Font Mono:size=12" };
+static const char dmenufont[]       = "MesloLGS Nerd Font Mono:size=12";
+static const char col_gray1[]       = "#2e3440";
 static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#005577";
+static const char col_gray3[]       = "#d8dee9";
+static const char col_gray4[]       = "#eceff4";
+static const char col_cyan[]        = "#434c5e"; 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
@@ -81,7 +81,7 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
 	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } },
-	{ MODKEY,                       XK_d,      incnmaster,     {.i = -1 } },
+	{ MODKEY|ShiftMask,             XK_d,      incnmaster,     {.i = -1 } },
 	{ MODKEY,                       XK_h,      setmfact,       {.f = -0.05} },
 	{ MODKEY,                       XK_l,      setmfact,       {.f = +0.05} },
 	{ MODKEY,                       XK_Return, zoom,           {0} },
