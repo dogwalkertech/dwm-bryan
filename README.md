@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="300" src="dwm/dwm.png" alt="dwm-bryan">
+<img width="300" src="dwm.png" alt="dwm-bryan">
 
 # dwm-bryan
 <br>
